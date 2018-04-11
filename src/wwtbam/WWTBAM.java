@@ -266,7 +266,7 @@ public class WWTBAM {
      */
     private static int getAnswerOtherThanCorrect(int i, String answer) {
         if (i<getChoiceIndex(answer)) return i;
-        else return i+i;
+        else return i+1;
     }
 
     /**
